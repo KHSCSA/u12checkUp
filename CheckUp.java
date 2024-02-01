@@ -57,7 +57,7 @@ class Book{
         this.author = a;
         this.title = t;
         // TODO a book should have a random number of pages between 50 and 1000 inclusive
-        this.numPages = (int)(Math.random()*951)+50;
+        this.numPages = 0;
     }
 
     public String toString(){
